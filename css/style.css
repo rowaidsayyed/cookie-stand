@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+header{
+    text-align: center;
+    border: tan solid 2px;
+    margin: 10px;
+}
+main{
+    height: 550px;
+    padding: 10px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-size: larger;
+    border: rgb(202, 81, 81) solid 2px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 40px;
+}
+header a{
+    font-family: 'Trade Winds', ;
+    font-size: larger;
+    text-decoration: none;
+    text-align: center;
+}
+#main{
+ text-align: left;   
+}
+div{
+    margin: 20px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
