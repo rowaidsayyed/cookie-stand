@@ -60,8 +60,10 @@ mainEl.appendChild(table);
 function headerhour(){
   var rowTable =document.createElement('tr');
   table.appendChild(rowTable);
+  var headerTable = document.createElement('thead');
+  rowTable.appendChild(headerTable);
   var headTable =document.createElement('th');
-  rowTable.appendChild(headTable);
+  headerTable.appendChild(headTable);
   headTable.textContent = '';
   for(var i=0;i<workingTime.length;i++){
     headTable =document.createElement('th');
