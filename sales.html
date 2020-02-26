@@ -21,7 +21,46 @@
         </nav>
     </header>
     <main id="main">
+        <form id="branchForm">
+            <fieldset>
+              <legend>Add new Branch</legend>
+            <label for="name">Branch name</label>
+            <input type="text" id="name" placeholder="Enter branch name" required>
+
+            <label for="min">min Customers</label>
+            <input type="text" id="min" placeholder="enter minumum number of customers" min="0">
+
+            <label for="max">max. Customer</label>
+            <input type="text" id="max" placeholder="enter maximum number of customers">
+
+            <label for="avg">Average cookeis per Customer</label>
+            <input type="text" id="avg" placeholder="enter average cookeis per Customer" max="10">
+
+            <input type="submit">
+          </fieldset>
+          </form>
+<br>
+<br>
+          <form id="changeForm">
+            <fieldset>
+              <legend>Modify Data</legend>
+            <label for="modifyname">Branch </label>
+            <input type="text" id="modifyname" placeholder="Enter branch name you want to modify">
+
+            <label for="modifyhour">Hour</label>
+            <input type="text" id="modifyhour" placeholder="enter hour want to modify its data">
+
+            <label for="modifydata">Data</label>
+            <input type="text" id="modifydata" placeholder="enter data want to change to">
+
+            <input type="submit">
+          </fieldset>
+          </form>
+          
+
         <div id="tableDiv"></div>
+
+        <!-- <img class="pop" src='https://freesvg.org/img/liakad_piranha.png'> -->
     </main>
     <script src="JS/app.js"></script>
 </body>
