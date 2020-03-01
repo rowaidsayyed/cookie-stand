@@ -89,7 +89,7 @@ function updateTable(e){
   // mainEl.appendChild(imageEl);
   // imageEl.className = 'pop';
   // imageEl.src='https://freesvg.org/img/liakad_piranha.png';
-
+branchForm.reset();
 }
 
 /************************************End of ADD Branch Form *************************** */
@@ -123,6 +123,7 @@ function modifyTable(e){
     rowTable =document.createElement('tr');
     footerTable(rowTable);
   }
+  changeForm.reset();
 }
 
 
